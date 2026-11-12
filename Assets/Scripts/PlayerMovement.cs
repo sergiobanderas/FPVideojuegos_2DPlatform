@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     Vector2 moveInput;
+    float gravityScaleAtStart;
 
     
     void Start()
@@ -22,14 +23,15 @@ public class PlayerMovement : MonoBehaviour
         myFeetCollider = GetComponent<BoxCollider2D>();
         int selectedCharacterIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         animator = transform.GetChild(0).GetChild(selectedCharacterIndex).GetComponent<Animator>();
+        gravityScaleAtStart = rb.gravityScale;
     }
 
     void Update()
     {
         Run();
         IsJumping();
+        ClimbLadder();
     }
-
 
     void OnMove(InputValue value)
     {
@@ -46,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void IsJumping()
     {
-        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")) )
         {
             animator.SetBool("isJumping", true);            
         }
@@ -75,6 +77,22 @@ public class PlayerMovement : MonoBehaviour
 
 
     }   
+
+    private void ClimbLadder()
+    {
+        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ladders")))
+        {
+            rb.gravityScale = gravityScaleAtStart;
+            animator.SetBool("isClimbing", false);
+            return;    
+        }
+
+        rb.gravityScale = 0f;
+        Vector2 climbVelocity = new Vector2(rb.linearVelocity.x, moveInput.y * moveSpeed);
+        rb.linearVelocity = climbVelocity;
+
+        animator.SetBool("isClimbing", moveInput.y != 0f);
+    }
 
 
 }
