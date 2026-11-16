@@ -29154,6 +29154,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WalkingEnemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7845369552709889894, guid: 07e331d2aef093743af83dac77242c3c, type: 3}
+      propertyPath: enemyDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845369552709889894, guid: 07e331d2aef093743af83dac77242c3c, type: 3}
+      propertyPath: directionEnumValue
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30181,6 +30189,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WalkingEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7845369552709889894, guid: 07e331d2aef093743af83dac77242c3c, type: 3}
+      propertyPath: enemyDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845369552709889894, guid: 07e331d2aef093743af83dac77242c3c, type: 3}
+      propertyPath: startDirection
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30328,9 +30344,10 @@ GameObject:
   - component: {fileID: 1616582376}
   - component: {fileID: 1616582377}
   - component: {fileID: 1616582378}
+  - component: {fileID: 1616582379}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30505,6 +30522,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.44998908, y: 0.110528976}
   m_EdgeRadius: 0
+--- !u!114 &1616582379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616582372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cec9c726efea8c4aa1a773df62aa423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 10
+  blinkDuration: 0.1
+  blinkColor: {r: 0.9411765, g: 0.5019608, b: 0.5019608, a: 1}
 --- !u!1 &1670176654
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,25 +7,40 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] float wallCheckDistance = 0.5f; // Distance to check for walls
     [SerializeField] float groundCheckDistance = 1f; // Distance to check for ground
     [SerializeField] float groundCheckOffset = 0.1f; // Offset for ground check
+    [SerializeField] bool enemyDetection = false;
 
     Rigidbody2D rb;
+
+    enum facing
+    {
+        Left,
+        Right
+    }
     
+    [SerializeField] facing startDirection = facing.Right;
+
     int direction = 1; // 1 for right, -1 for left
 
     void Start()
     {
+        if (startDirection == facing.Left)
+        {
+            TurnAround();
+        }
+
         rb = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
     {
-        if (IsTouchingWall() || IsAtEdge())
+        if (IsTouchingWall() || IsAtEdge() )
         {
             TurnAround();
         }
 
        rb.linearVelocity = new Vector2(moveSpeed * direction, 0f);
     }
+
 
     private bool IsAtEdge()
     {
@@ -53,6 +68,20 @@ public class EnemyMovement : MonoBehaviour
 
 
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy") && enemyDetection)
+        {
+            TurnAround();
+        }
+
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerHealth>().TakeDamage();
+        }
+    }
+
 
     /// <summary>
     /// Flips the enemy's direction 

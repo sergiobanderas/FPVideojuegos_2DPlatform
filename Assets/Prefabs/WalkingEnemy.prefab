@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5026993721576676556}
   - component: {fileID: 1377166822486052410}
   - component: {fileID: 7845369552709889894}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WalkingEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,6 +115,8 @@ MonoBehaviour:
   wallCheckDistance: 0.5
   groundCheckDistance: 1
   groundCheckOffset: 0.1
+  enemyDetection: 0
+  startDirection: 1
 --- !u!1 &6806500687282345082
 GameObject:
   m_ObjectHideFlags: 0
