@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 629fbf41fbb1dec4ba2d3fa03e2a48b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7552277259943506349
+    second: SPA_Player_Bronze_Weapons_0
+  - first:
+      213: 3418956237844035365
+    second: SPA_Player_Bronze_Weapons_1
+  - first:
+      213: -8418865861158920527
+    second: SPA_Player_Bronze_Weapons_2
+  - first:
+      213: 1869977513894312791
+    second: SPA_Player_Bronze_Weapons_3
+  - first:
+      213: -4951153418698082511
+    second: SPA_Player_Bronze_Weapons_4
+  - first:
+      213: -892996804683338425
+    second: SPA_Player_Bronze_Weapons_5
+  - first:
+      213: -4992435267272451376
+    second: SPA_Player_Bronze_Weapons_6
+  - first:
+      213: -6804298698357562020
+    second: SPA_Player_Bronze_Weapons_7
+  - first:
+      213: 7138719607912777303
+    second: SPA_Player_Bronze_Weapons_8
+  - first:
+      213: -3812284382753745834
+    second: SPA_Player_Bronze_Weapons_9
+  - first:
+      213: -7680168586473549173
+    second: SPA_Player_Bronze_Weapons_10
+  - first:
+      213: 9004352779000961074
+    second: SPA_Player_Bronze_Weapons_11
+  - first:
+      213: 2747724776652545437
+    second: SPA_Player_Bronze_Weapons_12
+  - first:
+      213: -7986742033607664474
+    second: SPA_Player_Bronze_Weapons_13
+  - first:
+      213: 5764800985856329797
+    second: SPA_Player_Bronze_Weapons_14
+  - first:
+      213: 2004797258396756743
+    second: SPA_Player_Bronze_Weapons_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e8ec388dbe03790800000000000000
+      internalID: -7552277259943506349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527bc4b7592927f20800000000000000
+      internalID: 3418956237844035365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be95f5ba1e2a2b80800000000000000
+      internalID: -8418865861158920527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b73ad24ae73f910800000000000000
+      internalID: 1869977513894312791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1373a02b238f94bb0800000000000000
+      internalID: -4951153418698082511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d6a4f23207b93f0800000000000000
+      internalID: -892996804683338425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dad712539e47bab0800000000000000
+      internalID: -4992435267272451376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55aeb272664291a0800000000000000
+      internalID: -6804298698357562020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756c1cc29a3d11360800000000000000
+      internalID: 7138719607912777303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654913f5d8b081bc0800000000000000
+      internalID: -3812284382753745834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b825124ac5f8a6590800000000000000
+      internalID: -7680168586473549173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23857a83523e5fc70800000000000000
+      internalID: 9004352779000961074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d1ae45021e12620800000000000000
+      internalID: 2747724776652545437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac522e9f64692190800000000000000
+      internalID: -7986742033607664474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548c9c214ffa00050800000000000000
+      internalID: 5764800985856329797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Player_Bronze_Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b6a611c7872db10800000000000000
+      internalID: 2004797258396756743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 516ae0827083e814ba1880df126e574e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.40625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SPA_Player_Bronze_Weapons_0: -7552277259943506349
+      SPA_Player_Bronze_Weapons_1: 3418956237844035365
+      SPA_Player_Bronze_Weapons_10: -7680168586473549173
+      SPA_Player_Bronze_Weapons_11: 9004352779000961074
+      SPA_Player_Bronze_Weapons_12: 2747724776652545437
+      SPA_Player_Bronze_Weapons_13: -7986742033607664474
+      SPA_Player_Bronze_Weapons_14: 5764800985856329797
+      SPA_Player_Bronze_Weapons_15: 2004797258396756743
+      SPA_Player_Bronze_Weapons_2: -8418865861158920527
+      SPA_Player_Bronze_Weapons_3: 1869977513894312791
+      SPA_Player_Bronze_Weapons_4: -4951153418698082511
+      SPA_Player_Bronze_Weapons_5: -892996804683338425
+      SPA_Player_Bronze_Weapons_6: -4992435267272451376
+      SPA_Player_Bronze_Weapons_7: -6804298698357562020
+      SPA_Player_Bronze_Weapons_8: 7138719607912777303
+      SPA_Player_Bronze_Weapons_9: -3812284382753745834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

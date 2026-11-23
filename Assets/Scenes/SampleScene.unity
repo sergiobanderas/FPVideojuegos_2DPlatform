@@ -179,7 +179,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0119cfb29bb2aed4295ca79a29ed4495, type: 2}
+  - {fileID: 2100000, guid: 2fd82346b4eb744408758036c1cb5314, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29274,7 +29274,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3.5
+  orthographic size: 4.89
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -30389,6 +30389,7 @@ GameObject:
   - component: {fileID: 1616582377}
   - component: {fileID: 1616582378}
   - component: {fileID: 1616582379}
+  - component: {fileID: 1616582380}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -30411,6 +30412,7 @@ Transform:
   m_Children:
   - {fileID: 1335240390}
   - {fileID: 1242005970}
+  - {fileID: 1690648590}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1616582374
@@ -30491,7 +30493,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
   jumpForce: 25
-  arrowPrefab: {fileID: 7168301989760970355, guid: f96258a956320cb4798130284656b60f, type: 3}
 --- !u!114 &1616582377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30583,6 +30584,30 @@ MonoBehaviour:
   maxHealth: 10
   blinkDuration: 0.1
   blinkColor: {r: 0.9411765, g: 0.5019608, b: 0.5019608, a: 1}
+--- !u!114 &1616582380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616582372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4cfc79399ad1f4ea602e9637d2a0bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
+  arrowPrefab: {fileID: 7168301989760970355, guid: f96258a956320cb4798130284656b60f, type: 3}
+  shootCooldown: 0.5
+  swordAttackRange: 0.5
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  swordCooldown: 0.5
+  unarmedAnimatorController: {fileID: 9100000, guid: 79b426aacd833b145aed57b2872a2acb, type: 2}
+  bowAnimatorController: {fileID: 22100000, guid: 5036b05d9d4d3564e99942fed2f5d627, type: 2}
+  swordAnimatorController: {fileID: 22100000, guid: 0c8c69f6fd6d4e34f8e705bc2306c60e, type: 2}
+  startWithSword: 1
+  startArrows: 5
 --- !u!1 &1670176654
 GameObject:
   m_ObjectHideFlags: 0
@@ -30674,6 +30699,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1690648589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1690648590}
+  m_Layer: 8
+  m_Name: SwordPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1690648590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690648589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.65, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1616582373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1856668829
 GameObject:
