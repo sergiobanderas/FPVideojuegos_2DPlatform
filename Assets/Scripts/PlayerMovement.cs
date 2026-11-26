@@ -97,5 +97,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isClimbing", moveInput.y != 0f);
     }
 
+    public void Bounce()
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+    }
+
 
 }

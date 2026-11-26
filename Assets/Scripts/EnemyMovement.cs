@@ -78,9 +78,27 @@ public class EnemyMovement : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerHealth>().TakeDamage();
+            if (IsStompedByPlayer(other))
+            {            
+                other.GetComponent<PlayerMovement>().Bounce(); 
+                Destroy(gameObject); // Destroy the enemy on stomp
+
+            }
+            else
+            {
+                other.GetComponent<PlayerHealth>().TakeDamage();
+            }
+            
         }
     }
+
+    private bool IsStompedByPlayer(Collider2D player)
+    {
+        float verticalSpeed = player.attachedRigidbody.linearVelocity.y;
+        return verticalSpeed < 0f; // Check if the player is falling
+    }
+
+
 
 
     /// <summary>

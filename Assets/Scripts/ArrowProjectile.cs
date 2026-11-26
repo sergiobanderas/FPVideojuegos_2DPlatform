@@ -34,8 +34,8 @@ public class ArrowProjectile : MonoBehaviour
         {
             Destroy(other.gameObject); // Destroy the enemy on impact
             Destroy(gameObject); // Destroy the arrow on impact
-            //TODO: Add sound effect for arrow hitting enemy
-            //TODO: Add particle effect for arrow hitting enemy
+            //TODO Add sound effect for arrow hitting enemy
+            //TODO Add particle effect for arrow hitting enemy
         }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
