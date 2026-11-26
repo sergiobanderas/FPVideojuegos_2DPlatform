@@ -163,6 +163,8 @@ public class PlayerCombat : MonoBehaviour
     {   
         if (!value.isPressed) return; // Only trigger on button press, not release
         if (animator.GetBool("isClimbing")) return; // Prevent shooting while climbing
+        if (CurrentWeapon == WeaponType.None) return; 
+
         
         if (Time.time < lastShootTime +  shootCooldown) return; // Prevent shooting too quickly
         lastShootTime = Time.time;
